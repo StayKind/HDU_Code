@@ -1,2 +1,2 @@
-# hdu-s-code
+# hdu-code
 杭电oj的题目
