@@ -63,7 +63,7 @@ void work()
             ban[str[0] - 'a'] = 1;
         }
         reverse(str, str + len); //字符串反转
-        
+
         for (int j = 0 ; j < len ; ++ j)
         {
             ++ num[str[j] - 'a'][j];
@@ -97,7 +97,7 @@ void work()
     int zero = -1;
     for (int i = 0 ; i < 26 ; ++ i)
     {
-        if (!ban[a[i]])
+        if (!ban[a[i]])//找到未标记前导零的权重最小的一个字母赋值为0
         {
             zero = a[i];
             break;
@@ -107,7 +107,7 @@ void work()
     int res = 0, x = 25;
     for (int i = 25 ; i >= 0 ; -- i)
     {
-        if (a[i] != zero)///前导为零的在计算过程之中将其排除
+        if (a[i] != zero)
         {
             res += (LL)(x --) * sum[a[i]] % Q;
             res %= Q;
@@ -122,7 +122,7 @@ int main()
     //N 为最大位数
     power[0] = 1;
     ///每位上的权值（需要在计算的过程中不断对Q取余）,字符串相加中会用到
-    for (int i = 1 ; i < N ; ++ i)  
+    for (int i = 1 ; i < N ; ++ i)
     {
         power[i] = (LL)power[i - 1] * 26 % Q;
     }
