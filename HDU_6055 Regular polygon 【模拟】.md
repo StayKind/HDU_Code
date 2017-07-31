@@ -1,5 +1,3 @@
-HDU_6055 Regular polygon 【模拟】
-
 <!--more-->
 
 > [题目链接](http://acm.hdu.edu.cn/showproblem.php?pid=6055)
