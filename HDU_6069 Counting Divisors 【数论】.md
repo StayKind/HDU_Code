@@ -1,4 +1,4 @@
-HDU_6069 Counting Divisors 【数论】
+
 <!--more-->
 
 > [题目链接](http://acm.hdu.edu.cn/showproblem.php?pid=6069)
