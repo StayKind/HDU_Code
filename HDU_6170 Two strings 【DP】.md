@@ -1,4 +1,4 @@
-HDU_6170 Two strings 【DP】
+
 <!--more-->
 > [题目链接](http://acm.hdu.edu.cn/showproblem.php?pid=6170)
 
