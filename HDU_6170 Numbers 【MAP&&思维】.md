@@ -1,4 +1,4 @@
-HDU_6170 Numbers
+
 <!--more-->
 > [题目链接](http://acm.hdu.edu.cn/showproblem.php?pid=6168)
 
