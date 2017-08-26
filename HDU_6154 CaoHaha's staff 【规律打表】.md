@@ -1,4 +1,4 @@
-HDU_6154 CaoHaha's staff 【规律打表】
+
 <!--more-->
 >[题目链接](http://acm.hdu.edu.cn/showproblem.php?pid=6154)
 
