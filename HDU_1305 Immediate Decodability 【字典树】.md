@@ -1,4 +1,4 @@
-HDU_1305 Immediate Decodability 【字典树】
+
 <!--more-->
 > [题目链接](http://acm.hdu.edu.cn/showproblem.php?pid=1305)
 
